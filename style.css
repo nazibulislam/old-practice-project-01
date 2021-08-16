@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     font-family: 'Raleway', sans-serif;
 }
@@ -42,10 +46,25 @@ header .navbar-brand{
 }
 header a{
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 900;
     color: black;
 }
 
+.nav-item::before,.nav-item::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    display: block;
+    margin: auto;
+    background: #000a;
+    transition: 0.5s;
+}
+.nav-item:hover::before,.nav-item:hover::after{
+   width: 100%; 
+}
+.nav-item a:hover{
+    color: #00CDE1;
+}
 .slide1{
     bottom: 20%;
     left: 50%;
