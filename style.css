@@ -1,0 +1,353 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.small-border-bottom{
+    border-bottom: 3px solid #00CDE1;
+    width: 7%;
+    margin: auto;
+}
+
+.header-top{
+    background-color: #F0F0F0;
+    border-bottom: 1px solid #ddd;
+    padding-top: 5px;
+}
+.container-fluid{
+    width: 80%;
+    margin: auto;
+}
+.A01{
+    margin-top: 5px;
+}
+.header-top p{
+    font-size: 13px;
+    font-weight: 400;
+}
+.header-top .social a{
+    color: black;
+    font-size: 18px;
+}
+.social{
+    justify-content: space-between;
+}
+.social .fab:hover{
+    color: #00CDE1;
+}
+
+header .navbar-brand{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 60px;
+}
+header a{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.slide1{
+    bottom: 20%;
+    left: 50%;
+    text-align: right;
+}
+.slide1 > h5{
+    font-size: 30px;
+    font-weight: 300;
+}
+.slide2{
+    bottom: 20%;
+    text-align: left;
+}
+.slide2 > h5{
+    font-size: 48px;
+    font-weight: 300;
+}
+.slide3{
+    bottom: 60%;
+    text-align: center;
+}
+.slide3 > h5{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.our-services .section-top h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.our-services .section-top p{
+    font-size: 21px;
+    font-weight: 300;
+}
+.our-services figure h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.our-services figure figcaption{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.lets-chat{
+    background-color: #01CDE1;
+}
+.lets-chat h2{
+    font-size: 36px;
+    font-weight: 300;
+}
+.lets-chat button{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.latest-work .section-top h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.latest-work .section-top p{
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.bg-1{
+    background-color: #16A0B7;
+}
+.bg-2{
+    background-color: #17AAC3;
+}
+.bg-3{
+    background-color: #18B4CE;
+}
+.bg-4{
+    background-color: #1ABED9;
+}
+
+.counter{
+    font-size: 42px;
+    font-weight: 400;
+}
+.counter > p{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.counter > h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.our-team .section-top h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.our-team .section-top p{
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.our-team .card-deck .card{
+    border: none;
+}
+.our-team .card-deck .card-body{
+    padding: 15px 0px;
+}
+.our-team .card-deck .card-title{
+    font-size: 18px;
+    font-weight: 400;
+}
+.our-team .card-deck .card-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.reviews .col-md-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.review-profile .carousel-item{
+    background-color: #F0F0F0;
+}
+.review-profile h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.review-profile p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.review-profile img{
+    width: 20%;
+    border: 10px solid #CDCDCD;
+}
+.review-text .carousel-item{
+    background-color: #00C0E1;
+}
+.review-text p{
+    font-family: 'Gentium Basic', serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.client .section-top h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.client .section-top p{
+    font-size: 21px;
+    font-weight: 300;
+}
+.owl-dots{display: none;}
+
+.latest-news .card-img-overlay{
+    top: 193px;
+    padding: 0px;
+}
+.latest-news .card-title{
+    padding: 18px 0px;
+    background-color: rgba(55,204,230,.85);
+}
+.latest-news h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+footer{
+    background-color: #3C3C3C;
+}
+footer h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-about-us p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255,255,255,.6);
+}
+.footer-recent-posts h5{
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer-recent-posts p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255,255,255,.6);
+}
+.footer-recent-posts .bb{
+    border-bottom: 1px solid #505050;
+}
+
+.footer-categories ul{
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footer-categories ul li{
+    border-bottom: 1px solid #505050;
+    padding: 7px 0px;
+}
+.footer-categories ul li:last-child{
+	border-bottom: none;
+}
+.footer-categories ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom{
+    background-color: black;
+}
+.footer-bottom p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-bottom i{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*Beginning of Abour Us Page*/
+
+.about-us{
+    background: url(img/about-us.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-us .container-fluid{
+    background-color: rgba(35,187,214,.7);
+}
+.about-us .section-top h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.about-us .section-top p{
+    font-size: 21px;
+    font-weight: 300;
+}
+.small-border-bottom-white{
+    border-bottom: 3px solid white;
+    width: 7%;
+    margin: auto;
+}
+.small-border-bottom-left{
+    border-bottom: 3px solid #00CDE1;
+    width: 10%;
+}
+
+.our-story-rightside{
+    background: url(img/our-story-rightside.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.our-story .section-top h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.our-story .section-top p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.our-story .section-top i{
+    font-size: 12px;
+    color: #14C4E3;
+}
+
+.why-us-our-skills{
+    background-color: #F0F0F0;
+}
+.why-us-our-skills .section-top h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.why-us-our-skills .section-top p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.why-us-our-skills .card{
+    border: 1px solid #fff;
+}
+.why-us-our-skills .card-header{
+    padding: 0px;
+    background-color: #01C0E1;
+}
+.why-us-our-skills .card-body{
+    background-color: #D8D8D8;
+}
+.why-us-our-skills .btn-link{
+    color: #fff;
+}
+.why-us-our-skills .progress{
+    background-color: #DFDFDF;
+}
+.why-us-our-skills .progress-bar{
+    background-color: #01C0E1;
+}
+
+.about-us-partners{
+    background-color: #ddd;
+}
+
