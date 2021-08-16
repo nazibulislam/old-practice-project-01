@@ -17,7 +17,7 @@ body{
     border-bottom: 1px solid #ddd;
     padding-top: 5px;
 }
-.container-fluid{
+.width80{
     width: 80%;
     margin: auto;
 }
@@ -204,8 +204,12 @@ header a{
 }
 .review-text p{
     font-family: 'Gentium Basic', serif;
-    font-size: 24px;
+    font-size: 1.3em;
     font-weight: 400;
+    transform: translate(0%, 30%);
+}
+.carousel-item{
+    height: 45vh;
 }
 
 .client .section-top h2{
