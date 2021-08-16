@@ -32,8 +32,11 @@ body{
     color: black;
     font-size: 18px;
 }
-.social{
-    justify-content: space-between;
+.header-top span{
+    padding-left: 10px;
+}
+.social a{
+    padding: 0 5px;
 }
 .social .fab:hover{
     color: #00CDE1;
@@ -208,7 +211,7 @@ header a{
     font-weight: 400;
     transform: translate(0%, 30%);
 }
-.carousel-item{
+.review-section{
     height: 45vh;
 }
 
@@ -289,6 +292,12 @@ footer h4{
     color: white;
     font-size: 16px;
     font-weight: 400;
+}
+.copyright a{
+    color: #00CDE1;
+}
+.copyright a:hover{
+    text-decoration: none;
 }
 
 /*Beginning of Abour Us Page*/
